@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="/src/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body
+    class="min-h-screen font-primary overflow-x-hidden lg:overflow-x-visible"
+  >
+    <header class="grid place-items-center py-12">
+      <img src="src/assets/logo.svg" alt="Meet logo" />
+    </header>
+    <main>
+      <section
+        class="grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center pt-0 mt-0"
+      >
+        <div class="overflow-hidden w-full">
+          <img
+            src="src/assets/tablet/image-hero.png"
+            alt="Group of avatar pictures"
+            class="w-[110vw] max-w-none -mx-[5vw] lg:hidden"
+          />
+        </div>
+        <div
+          class="hidden lg:block justify-self-start col-start-1 -m1-[10vw] overflow-visible"
+        >
+          <img
+            src="src/assets/desktop/image-hero-left.png"
+            alt="Group of avatar pictures"
+            class="hidden lg:block w-full object-cover"
+          />
+        </div>
+        <div>
+          <div class="text-center lg:px-2 gap-6">
+            <h1
+              class="text-[2.5rem] leading-[1.1] md:text-5xl lg:text-[4rem] font-black text-slate-900 pt-12 md:pt-[4.5rem]"
+            >
+              Group Chat<br />
+              <span>for Everyone</span>
+            </h1>
+            <p
+              class="text-slate-600 font-medium text-base lg:text-lg max-w-md py-6"
+            >
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+          </div>
+          <div
+            class="grid gird-cols-1 gap-4 md:grid-cols-2 pb-8 w-full place-items-center"
+          >
+            <button
+              class="bg-cyan-600 hover:bg-[#71C0D4] transition-colors duration-200 px-6 py-3 rounded-full font-black text-white text-base w-max md:justify-self-end"
+            >
+              Download <span class="text-cyan-300">v1.3</span>
+            </button>
+            <button
+              class="bg-purple-600 hover:bg-[#B18BDD] transition-colors duration-200 px-6 py-3 rounded-full font-black text-white text-base w-max md:justify-self-start"
+            >
+              What is it?
+            </button>
+          </div>
+        </div>
+        <div
+          class="hidden lg:block justify-self-end col-start-3 -m1-[10vw] overflow-visible"
+        >
+          <img
+            src="src/assets/desktop/image-hero-right.png"
+            alt=""
+            class="hidden lg:block w-full object-cover"
+          />
+        </div>
+      </section>
+      <section class="grid grid-cols-1 place-items-center text-center px-8">
+        <div class="flex flex-col items-center mt-8 md:mt-[3.5rem]">
+          <div class="w-px h-16 bg-gray-300"></div>
+          <div
+            class="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 font-bold"
+          >
+            01
+          </div>
+        </div>
+        <div class="w-full max-w-[70rem] mx-auto">
+          <div
+            class="grid grid-cols-2 gap-4 md:gap-6 lg:gap-8 md:grid-cols-4 py-16"
+          >
+            <img
+              src="src/assets/desktop/image-woman-in-videocall.jpg"
+              alt=""
+              class="rounded-lg"
+            />
+            <img
+              src="src/assets/desktop/image-women-videochatting.jpg"
+              alt=""
+              class="rounded-lg"
+            />
+            <img
+              src="src/assets/desktop/image-men-in-meeting.jpg"
+              alt=""
+              class="rounded-lg"
+            />
+            <img
+              src="src/assets/desktop/image-man-texting.jpg"
+              alt=""
+              class="rounded-lg"
+            />
+          </div>
+        </div>
+        <div class="grid grid-cols-1 place-items-center">
+          <p
+            class="text-cyan-600 font-black uppercase text-xs md:text-sm lg:text-base tracking-[0.25rem] pb-4"
+          >
+            Built for modern use
+          </p>
+          <h2
+            class="text-slate-900 font-black text-[2rem]/[2rem] md:text-4xl lg:text-[2.5rem] pb-8"
+          >
+            Smarter meetings, all in one place
+          </h2>
+          <p
+            class="text-slate-600 font-medium text-base lg:text-lg max-w-md pb-16 lg:pb-[4.5rem]"
+          >
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </p>
+        </div>
+        <div class="flex flex-col items-center -mb-6 relative z-10">
+          <div class="w-px h-16 bg-gray-300"></div>
+          <div
+            class="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 font-bold bg-white"
+          >
+            02
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="relative text-white">
+      <div
+        class="absolute inset-0 bg-[url('/src/assets/mobile/image-footer.jpg')] bg-no-repeat bg-cover bg-top opacity-40 md:bg-[url('/src/assets/tablet/image-footer.jpg')] lg:bg-[url('/src/assets/desktop/image-footer.jpg')]"
+      ></div>
+      <div class="absolute inset-0 bg-cyan-600/80"></div>
+
+      <div
+        class="relative grid grid-cols-1 max-w-screen-lg mx-auto text-center lg:text-left px-8 lg:px-20 py-16 gap-6 lg:grid-cols-3 lg:place-items-center lg:justify-between lg:gap-8"
+      >
+        <h2 class="text-[2rem]/[2rem] md:text-4xl lg:text-[2.5rem] font-bold">
+          Experience more together
+        </h2>
+        <p class="text-base max-w-xl mx-auto lg:text-lg">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <button
+          class="bg-purple-600 hover:bg-[#B18BDD] transition-colors duration-200 px-6 py-3 rounded-full font-black text-white text-base w-max justify-self-center lg:justify-self-end"
+        >
+          Download <span class="text-purple-300">v1.3</span>
+        </button>
+      </div>
+    </footer>
+
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
